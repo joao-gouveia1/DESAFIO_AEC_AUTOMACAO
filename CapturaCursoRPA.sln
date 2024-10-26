@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APRESENTACAO", "APRESENTACAO\APRESENTACAO.csproj", "{363B0754-2683-42DE-8F3E-281EECF5546B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapturaCursoRPA.Apresentacao", "CapturaCursoRPA.Apresentacao\CapturaCursoRPA.Apresentacao.csproj", "{363B0754-2683-42DE-8F3E-281EECF5546B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPA", "APLICACAO\RPA.csproj", "{D3D2EDF4-DD23-420E-B3C2-09C3D3CD503E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapturaCursoRPA.AplicacaoRPA", "CapturaCursoRPA.AplicacaoRPA\CapturaCursoRPA.AplicacaoRPA.csproj", "{D3D2EDF4-DD23-420E-B3C2-09C3D3CD503E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INFRAESTRUTURA", "INFRAESTRUTURA\INFRAESTRUTURA.csproj", "{0E1BF834-A500-4750-9280-54BE8D8CB6FF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapturaCursoRPA.Infraestrutura", "CapturaCursoRPA.Infraestrutura\CapturaCursoRPA.Infraestrutura.csproj", "{0E1BF834-A500-4750-9280-54BE8D8CB6FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOMINIO", "DOMINIO\DOMINIO.csproj", "{91FD05AA-DF83-4397-BADA-F5E156E28DAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapturaCursoRPA.Dominio", "CapturaCursoRPA.Dominio\CapturaCursoRPA.Dominio.csproj", "{91FD05AA-DF83-4397-BADA-F5E156E28DAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
