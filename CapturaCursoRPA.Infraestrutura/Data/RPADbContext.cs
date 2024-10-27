@@ -7,7 +7,7 @@ namespace CapturaCursoRPA.Infraestrutura.Data
     {
         public RPADbContext(DbContextOptions<RPADbContext> options) : base(options) 
         {
-            //Database.EnsureCreated();
+            Database.EnsureCreated();
         }
 
         public DbSet<Curso> Cursos { get; set; }
@@ -22,7 +22,7 @@ namespace CapturaCursoRPA.Infraestrutura.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlite("Data Source=automacao.db");
+                optionsBuilder.UseSqlite("Data Source=./Data/automacao.db");
             }
         }
     }

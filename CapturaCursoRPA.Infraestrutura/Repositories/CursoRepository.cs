@@ -17,8 +17,7 @@ namespace CapturaCursoRPA.Infraestrutura.Repositories
         {
             try
             {
-                //_context.Cursos.Add(curso);
-                _context.Add(curso);
+                _context.Cursos.Add(curso);
                 int retorno = _context.SaveChanges();
             }
             catch (Exception e)

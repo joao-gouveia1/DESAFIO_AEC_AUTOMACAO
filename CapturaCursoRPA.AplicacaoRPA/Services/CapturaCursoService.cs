@@ -76,5 +76,15 @@ namespace CapturaCursoRPA.AplicacaoRPA.Services
 
             _browserDriver.EncerrarWebDriver();
         }
+
+        public void MostrarTodosCursos()
+        {
+            var cursos = _cursoRepository.ObterTodos();
+
+            foreach (Curso curso in cursos)
+            {
+                Console.WriteLine(curso.ExibirParametros());
+            }
+        }
     }
 }

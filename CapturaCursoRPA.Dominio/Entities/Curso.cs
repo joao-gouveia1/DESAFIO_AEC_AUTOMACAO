@@ -17,5 +17,10 @@
             this.CargaHoraria = cargaHoraria;
             this.Descricao = descricao;
         }
+
+        public string ExibirParametros()
+        {
+            return $"ID: {this.IdCaptura} - Titulo: {this.Titulo} - Nome Professor: {this.NomeProfessor} - Carga Horária: {this.CargaHoraria} - Descrição: {this.Descricao}";
+        }
     }
 }
