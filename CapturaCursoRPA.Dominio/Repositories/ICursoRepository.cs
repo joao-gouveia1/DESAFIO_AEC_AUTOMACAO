@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CapturaCursoRPA.Dominio.Entities;
 
 namespace CapturaCursoRPA.Dominio.Repositories
 {
-    internal interface ICursoRepository
+    public interface ICursoRepository
     {
-
+        IEnumerable<Curso> ObterTodos();
+        void Adicionar(Curso curso);
     }
 }
